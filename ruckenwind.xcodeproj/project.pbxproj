@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55C69A931E002725008E4988 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C69A921E002725008E4988 /* AppDelegate.swift */; };
+		55C69A951E002725008E4988 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C69A941E002725008E4988 /* ViewController.swift */; };
+		55C69A981E002725008E4988 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55C69A961E002725008E4988 /* Main.storyboard */; };
+		55C69A9A1E002725008E4988 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55C69A991E002725008E4988 /* Assets.xcassets */; };
+		55C69A9D1E002725008E4988 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55C69A9B1E002725008E4988 /* LaunchScreen.storyboard */; };
+		55C69AA81E002725008E4988 /* ruckenwindTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C69AA71E002725008E4988 /* ruckenwindTests.swift */; };
+		55C69AAD1E002725008E4988 /* ruckenwind WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 55C69AAC1E002725008E4988 /* ruckenwind WatchKit App.app */; };
+		55C69AB31E002725008E4988 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55C69AB11E002725008E4988 /* Interface.storyboard */; };
+		55C69AB51E002725008E4988 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55C69AB41E002725008E4988 /* Assets.xcassets */; };
+		55C69ABC1E002725008E4988 /* ruckenwind WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 55C69ABB1E002725008E4988 /* ruckenwind WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		55C69AC31E002726008E4988 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C69AC21E002726008E4988 /* InterfaceController.swift */; };
+		55C69AC51E002726008E4988 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C69AC41E002726008E4988 /* ExtensionDelegate.swift */; };
+		55C69AC71E002726008E4988 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C69AC61E002726008E4988 /* NotificationController.swift */; };
+		55C69AC91E002726008E4988 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55C69AC81E002726008E4988 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55C69AA41E002725008E4988 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55C69A871E002725008E4988 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55C69A8E1E002725008E4988;
+			remoteInfo = ruckenwind;
+		};
+		55C69AAE1E002725008E4988 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55C69A871E002725008E4988 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55C69AAB1E002725008E4988;
+			remoteInfo = "ruckenwind WatchKit App";
+		};
+		55C69ABD1E002725008E4988 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55C69A871E002725008E4988 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55C69ABA1E002725008E4988;
+			remoteInfo = "ruckenwind WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		55C69AD01E002726008E4988 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				55C69ABC1E002725008E4988 /* ruckenwind WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55C69AD41E002726008E4988 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				55C69AAD1E002725008E4988 /* ruckenwind WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		55C69A8F1E002725008E4988 /* ruckenwind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ruckenwind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55C69A921E002725008E4988 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55C69A941E002725008E4988 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55C69A971E002725008E4988 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55C69A991E002725008E4988 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55C69A9C1E002725008E4988 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55C69A9E1E002725008E4988 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55C69AA31E002725008E4988 /* ruckenwindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ruckenwindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55C69AA71E002725008E4988 /* ruckenwindTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ruckenwindTests.swift; sourceTree = "<group>"; };
+		55C69AA91E002725008E4988 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55C69AAC1E002725008E4988 /* ruckenwind WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ruckenwind WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55C69AB21E002725008E4988 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		55C69AB41E002725008E4988 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55C69AB61E002725008E4988 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55C69ABB1E002725008E4988 /* ruckenwind WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ruckenwind WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55C69AC11E002726008E4988 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		55C69AC21E002726008E4988 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		55C69AC41E002726008E4988 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		55C69AC61E002726008E4988 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		55C69AC81E002726008E4988 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55C69ACA1E002726008E4988 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55C69A8C1E002725008E4988 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55C69AA01E002725008E4988 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55C69AB81E002725008E4988 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55C69A861E002725008E4988 = {
+			isa = PBXGroup;
+			children = (
+				55C69A911E002725008E4988 /* ruckenwind */,
+				55C69AA61E002725008E4988 /* ruckenwindTests */,
+				55C69AB01E002725008E4988 /* ruckenwind WatchKit App */,
+				55C69ABF1E002725008E4988 /* ruckenwind WatchKit Extension */,
+				55C69A901E002725008E4988 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55C69A901E002725008E4988 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55C69A8F1E002725008E4988 /* ruckenwind.app */,
+				55C69AA31E002725008E4988 /* ruckenwindTests.xctest */,
+				55C69AAC1E002725008E4988 /* ruckenwind WatchKit App.app */,
+				55C69ABB1E002725008E4988 /* ruckenwind WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55C69A911E002725008E4988 /* ruckenwind */ = {
+			isa = PBXGroup;
+			children = (
+				55C69A921E002725008E4988 /* AppDelegate.swift */,
+				55C69A941E002725008E4988 /* ViewController.swift */,
+				55C69A961E002725008E4988 /* Main.storyboard */,
+				55C69A991E002725008E4988 /* Assets.xcassets */,
+				55C69A9B1E002725008E4988 /* LaunchScreen.storyboard */,
+				55C69A9E1E002725008E4988 /* Info.plist */,
+			);
+			path = ruckenwind;
+			sourceTree = "<group>";
+		};
+		55C69AA61E002725008E4988 /* ruckenwindTests */ = {
+			isa = PBXGroup;
+			children = (
+				55C69AA71E002725008E4988 /* ruckenwindTests.swift */,
+				55C69AA91E002725008E4988 /* Info.plist */,
+			);
+			path = ruckenwindTests;
+			sourceTree = "<group>";
+		};
+		55C69AB01E002725008E4988 /* ruckenwind WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				55C69AB11E002725008E4988 /* Interface.storyboard */,
+				55C69AB41E002725008E4988 /* Assets.xcassets */,
+				55C69AB61E002725008E4988 /* Info.plist */,
+			);
+			path = "ruckenwind WatchKit App";
+			sourceTree = "<group>";
+		};
+		55C69ABF1E002725008E4988 /* ruckenwind WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				55C69AC21E002726008E4988 /* InterfaceController.swift */,
+				55C69AC41E002726008E4988 /* ExtensionDelegate.swift */,
+				55C69AC61E002726008E4988 /* NotificationController.swift */,
+				55C69AC81E002726008E4988 /* Assets.xcassets */,
+				55C69ACA1E002726008E4988 /* Info.plist */,
+				55C69AC01E002726008E4988 /* Supporting Files */,
+			);
+			path = "ruckenwind WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		55C69AC01E002726008E4988 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55C69AC11E002726008E4988 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55C69A8E1E002725008E4988 /* ruckenwind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55C69AD51E002726008E4988 /* Build configuration list for PBXNativeTarget "ruckenwind" */;
+			buildPhases = (
+				55C69A8B1E002725008E4988 /* Sources */,
+				55C69A8C1E002725008E4988 /* Frameworks */,
+				55C69A8D1E002725008E4988 /* Resources */,
+				55C69AD41E002726008E4988 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55C69AAF1E002725008E4988 /* PBXTargetDependency */,
+			);
+			name = ruckenwind;
+			productName = ruckenwind;
+			productReference = 55C69A8F1E002725008E4988 /* ruckenwind.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55C69AA21E002725008E4988 /* ruckenwindTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55C69AD81E002726008E4988 /* Build configuration list for PBXNativeTarget "ruckenwindTests" */;
+			buildPhases = (
+				55C69A9F1E002725008E4988 /* Sources */,
+				55C69AA01E002725008E4988 /* Frameworks */,
+				55C69AA11E002725008E4988 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55C69AA51E002725008E4988 /* PBXTargetDependency */,
+			);
+			name = ruckenwindTests;
+			productName = ruckenwindTests;
+			productReference = 55C69AA31E002725008E4988 /* ruckenwindTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55C69AAB1E002725008E4988 /* ruckenwind WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55C69AD11E002726008E4988 /* Build configuration list for PBXNativeTarget "ruckenwind WatchKit App" */;
+			buildPhases = (
+				55C69AAA1E002725008E4988 /* Resources */,
+				55C69AD01E002726008E4988 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55C69ABE1E002725008E4988 /* PBXTargetDependency */,
+			);
+			name = "ruckenwind WatchKit App";
+			productName = "ruckenwind WatchKit App";
+			productReference = 55C69AAC1E002725008E4988 /* ruckenwind WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		55C69ABA1E002725008E4988 /* ruckenwind WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55C69ACD1E002726008E4988 /* Build configuration list for PBXNativeTarget "ruckenwind WatchKit Extension" */;
+			buildPhases = (
+				55C69AB71E002725008E4988 /* Sources */,
+				55C69AB81E002725008E4988 /* Frameworks */,
+				55C69AB91E002725008E4988 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ruckenwind WatchKit Extension";
+			productName = "ruckenwind WatchKit Extension";
+			productReference = 55C69ABB1E002725008E4988 /* ruckenwind WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55C69A871E002725008E4988 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Matthew Hull";
+				TargetAttributes = {
+					55C69A8E1E002725008E4988 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					55C69AA21E002725008E4988 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 55C69A8E1E002725008E4988;
+					};
+					55C69AAB1E002725008E4988 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					55C69ABA1E002725008E4988 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 55C69A8A1E002725008E4988 /* Build configuration list for PBXProject "ruckenwind" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55C69A861E002725008E4988;
+			productRefGroup = 55C69A901E002725008E4988 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55C69A8E1E002725008E4988 /* ruckenwind */,
+				55C69AA21E002725008E4988 /* ruckenwindTests */,
+				55C69AAB1E002725008E4988 /* ruckenwind WatchKit App */,
+				55C69ABA1E002725008E4988 /* ruckenwind WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55C69A8D1E002725008E4988 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C69A9D1E002725008E4988 /* LaunchScreen.storyboard in Resources */,
+				55C69A9A1E002725008E4988 /* Assets.xcassets in Resources */,
+				55C69A981E002725008E4988 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55C69AA11E002725008E4988 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55C69AAA1E002725008E4988 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C69AB51E002725008E4988 /* Assets.xcassets in Resources */,
+				55C69AB31E002725008E4988 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55C69AB91E002725008E4988 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C69AC91E002726008E4988 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55C69A8B1E002725008E4988 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C69A951E002725008E4988 /* ViewController.swift in Sources */,
+				55C69A931E002725008E4988 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55C69A9F1E002725008E4988 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C69AA81E002725008E4988 /* ruckenwindTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55C69AB71E002725008E4988 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C69AC71E002726008E4988 /* NotificationController.swift in Sources */,
+				55C69AC51E002726008E4988 /* ExtensionDelegate.swift in Sources */,
+				55C69AC31E002726008E4988 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55C69AA51E002725008E4988 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55C69A8E1E002725008E4988 /* ruckenwind */;
+			targetProxy = 55C69AA41E002725008E4988 /* PBXContainerItemProxy */;
+		};
+		55C69AAF1E002725008E4988 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55C69AAB1E002725008E4988 /* ruckenwind WatchKit App */;
+			targetProxy = 55C69AAE1E002725008E4988 /* PBXContainerItemProxy */;
+		};
+		55C69ABE1E002725008E4988 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55C69ABA1E002725008E4988 /* ruckenwind WatchKit Extension */;
+			targetProxy = 55C69ABD1E002725008E4988 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55C69A961E002725008E4988 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55C69A971E002725008E4988 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55C69A9B1E002725008E4988 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55C69A9C1E002725008E4988 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		55C69AB11E002725008E4988 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55C69AB21E002725008E4988 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55C69ACB1E002726008E4988 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55C69ACC1E002726008E4988 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55C69ACE1E002726008E4988 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "ruckenwind WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewdanielhull.ruckenwind.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		55C69ACF1E002726008E4988 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "ruckenwind WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewdanielhull.ruckenwind.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		55C69AD21E002726008E4988 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = ruckenwind_WatchKit_Extension;
+				INFOPLIST_FILE = "ruckenwind WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewdanielhull.ruckenwind.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		55C69AD31E002726008E4988 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = ruckenwind_WatchKit_Extension;
+				INFOPLIST_FILE = "ruckenwind WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewdanielhull.ruckenwind.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		55C69AD61E002726008E4988 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ruckenwind/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewdanielhull.ruckenwind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		55C69AD71E002726008E4988 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ruckenwind/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewdanielhull.ruckenwind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		55C69AD91E002726008E4988 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ruckenwindTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewdanielhull.ruckenwindTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ruckenwind.app/ruckenwind";
+			};
+			name = Debug;
+		};
+		55C69ADA1E002726008E4988 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ruckenwindTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewdanielhull.ruckenwindTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ruckenwind.app/ruckenwind";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55C69A8A1E002725008E4988 /* Build configuration list for PBXProject "ruckenwind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55C69ACB1E002726008E4988 /* Debug */,
+				55C69ACC1E002726008E4988 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55C69ACD1E002726008E4988 /* Build configuration list for PBXNativeTarget "ruckenwind WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55C69ACE1E002726008E4988 /* Debug */,
+				55C69ACF1E002726008E4988 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		55C69AD11E002726008E4988 /* Build configuration list for PBXNativeTarget "ruckenwind WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55C69AD21E002726008E4988 /* Debug */,
+				55C69AD31E002726008E4988 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		55C69AD51E002726008E4988 /* Build configuration list for PBXNativeTarget "ruckenwind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55C69AD61E002726008E4988 /* Debug */,
+				55C69AD71E002726008E4988 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		55C69AD81E002726008E4988 /* Build configuration list for PBXNativeTarget "ruckenwindTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55C69AD91E002726008E4988 /* Debug */,
+				55C69ADA1E002726008E4988 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55C69A871E002725008E4988 /* Project object */;
+}
