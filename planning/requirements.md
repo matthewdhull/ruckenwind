@@ -1,5 +1,5 @@
 # Description:
-**A software system that displays a METAR or TAF for a station. A user may input an identifier for the station and view the current wx (METAR) or forecast (TAF). The user may choose favorite or default stations. The output will be textual information or a graphical display based on user preference. The system will offer a complication for display on the watch face for a selected station.**
+** A software system that displays a METAR or TAF for a station. A user may input an identifier for the station and view the current wx (METAR) or forecast (TAF). The user may choose favorite or default stations. The output will be textual information or a graphical display based on user preference. The system will offer a complication for display on the watch face for a selected station. **
 
 
 ### Requirements:
@@ -21,7 +21,7 @@
 * An alert will be displayed when the METAR is more than one hour old.
 * An alert will be displayed when the TAF is expired.
 * The output may be toggled between graphical and textual formats.
-* The altimetry output default may be in inHG or hPA.
+* The altimetry output default may be in: inHg or hPa or a local default where the reported unit is reported without conversion.
 * The visibility output  default may be in meters or statue miles.
 
 
