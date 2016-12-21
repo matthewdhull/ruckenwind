@@ -11,9 +11,12 @@ import XCTest
 
 class ruckenwindTests: XCTestCase {
     
+
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
+        
+
     }
     
     override func tearDown() {
@@ -24,6 +27,11 @@ class ruckenwindTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        let expected: String = "LFSB"
+        var awr: AviationWeatherReport
+        awr = AviationWeatherReport.init(siteId: "LFSB", site: "Basel-Mulhouse", lat: 30.0, lon: 30.0, fltCat: "IFR", rawText: "raw text")
+        XCTAssertEqual(expected, awr.siteId)
+        
     }
     
     func testPerformanceExample() {

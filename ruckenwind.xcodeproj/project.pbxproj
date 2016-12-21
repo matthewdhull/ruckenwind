@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		550C0E441E0935CC0077598C /* AviationWeatherReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550C0E431E0935CC0077598C /* AviationWeatherReport.swift */; };
+		55BBF6F31E0937A800D9FE0C /* Metar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BBF6F21E0937A800D9FE0C /* Metar.swift */; };
 		55C69A931E002725008E4988 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C69A921E002725008E4988 /* AppDelegate.swift */; };
 		55C69A951E002725008E4988 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C69A941E002725008E4988 /* ViewController.swift */; };
 		55C69A981E002725008E4988 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55C69A961E002725008E4988 /* Main.storyboard */; };
@@ -21,6 +23,7 @@
 		55C69AC51E002726008E4988 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C69AC41E002726008E4988 /* ExtensionDelegate.swift */; };
 		55C69AC71E002726008E4988 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C69AC61E002726008E4988 /* NotificationController.swift */; };
 		55C69AC91E002726008E4988 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55C69AC81E002726008E4988 /* Assets.xcassets */; };
+		55F53C0A1E0A04A3003F5BC7 /* Taf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F53C091E0A04A3003F5BC7 /* Taf.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +76,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		550C0E431E0935CC0077598C /* AviationWeatherReport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AviationWeatherReport.swift; sourceTree = "<group>"; };
+		55BBF6F21E0937A800D9FE0C /* Metar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Metar.swift; sourceTree = "<group>"; };
 		55C69A8F1E002725008E4988 /* ruckenwind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ruckenwind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55C69A921E002725008E4988 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55C69A941E002725008E4988 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -94,6 +99,7 @@
 		55C69AC61E002726008E4988 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		55C69AC81E002726008E4988 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55C69ACA1E002726008E4988 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55F53C091E0A04A3003F5BC7 /* Taf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Taf.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +158,9 @@
 				55C69A991E002725008E4988 /* Assets.xcassets */,
 				55C69A9B1E002725008E4988 /* LaunchScreen.storyboard */,
 				55C69A9E1E002725008E4988 /* Info.plist */,
+				550C0E431E0935CC0077598C /* AviationWeatherReport.swift */,
+				55BBF6F21E0937A800D9FE0C /* Metar.swift */,
+				55F53C091E0A04A3003F5BC7 /* Taf.swift */,
 			);
 			path = ruckenwind;
 			sourceTree = "<group>";
@@ -362,8 +371,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				550C0E441E0935CC0077598C /* AviationWeatherReport.swift in Sources */,
 				55C69A951E002725008E4988 /* ViewController.swift in Sources */,
+				55F53C0A1E0A04A3003F5BC7 /* Taf.swift in Sources */,
 				55C69A931E002725008E4988 /* AppDelegate.swift in Sources */,
+				55BBF6F31E0937A800D9FE0C /* Metar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -661,6 +673,7 @@
 				55C69ACF1E002726008E4988 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55C69AD11E002726008E4988 /* Build configuration list for PBXNativeTarget "ruckenwind WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -669,6 +682,7 @@
 				55C69AD31E002726008E4988 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55C69AD51E002726008E4988 /* Build configuration list for PBXNativeTarget "ruckenwind" */ = {
 			isa = XCConfigurationList;
@@ -677,6 +691,7 @@
 				55C69AD71E002726008E4988 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55C69AD81E002726008E4988 /* Build configuration list for PBXNativeTarget "ruckenwindTests" */ = {
 			isa = XCConfigurationList;
@@ -685,6 +700,7 @@
 				55C69ADA1E002726008E4988 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
